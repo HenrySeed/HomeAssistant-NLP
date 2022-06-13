@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "lib": ["esnext", "DOM"],
+        "module": "commonjs",
+        "target": "es2017",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "composite": true,
+        "useUnknownInCatchVariables": false
+    },
+    "include": ["src", "__tests__"],
+    "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "homeassistant-nlp",
+    "version": "1.0.0",
+    "description": "An attempt at using Heuristic search to match an input string to a DFA for Home Assistant like applications",
+    "main": "index.js",
+    "repository": "https://github.com/HenrySeed/HomeAssistant-NLP.git",
+    "author": "Henry Seed <the.seedh@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "typescript": "^4.7.3"
+    },
+    "scripts": {
+        "test": "jest",
+        "watch": "tsc -b -w",
+        "build": "tsc -b",
+        "compile": "tsc -b",
+        "reset": "yarn reset:tsc && yarn reset:modules",
+        "reset:modules": "rm -rf node_modules && yarn",
+        "reset:tsc": "rm -rf dist && yarn tsc"
+    },
+    "dependencies": {
+        "asciitree": "^1.0.2"
+    }
+}
